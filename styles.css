@@ -2,11 +2,12 @@
 
 :root {
     --cinza: #555555;
+    --verde: #77afa1;
 }
 
 body {
     font-size: 1rem;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
 }
 
 header {
@@ -20,12 +21,12 @@ section {
 
 
 .nav-link {
-    color: #77afa1;
+    color: var(--verde);
     font-weight: 600;
 }
 
 .inicio-fundo {
-    background-image: url('img/Linkin\ Park\ Street\ Soldier.jpg');
+    background-image: url('img/Linkin\ Park\ Street\ Soldier.png');
     background-size: cover;
     background-position: right;
     border-radius: 80px;
@@ -66,7 +67,7 @@ section {
 }
 
 .display-4 {
-    text-shadow: -5px 5px var(--cinza);
+    text-shadow: -5px 5px var(--verde);
 }
 
 
@@ -75,8 +76,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
+    background: url('img/raio-topo.png') top right no-repeat,
+        url('img/raio-esquerda.png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -92,9 +93,10 @@ section {
 
 
 h2 {
-    font-family: 'Montserrat', serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 2.5em;
     font-style: bold;
+    font-weight: 900;
     color: var(--cinza);
 }
 
@@ -104,12 +106,12 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background: url('img/raio-direita.png') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/endless-machine.png');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -128,7 +130,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: #77afa1;
+    background-color: var(--verde);
     border: none;
     font-weight: bold;
 }
