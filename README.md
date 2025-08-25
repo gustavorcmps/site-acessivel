@@ -1,6 +1,6 @@
 # Site acessível sobre Linkin Park
 
-![Logo da banda](img/Linkin_Park_20150825_007.jpg)
+![Logo da banda](img/512px-Linkin-park-logo-2007.svg.png)
 
 # Sobre
 
