@@ -142,8 +142,16 @@ h2 {
   transform-origin: right center;
 }
 
-.opcoesMenu {
+.opcoes {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
+}
+
+.opcoes button {
+  margin-bottom: 5px;
+}
+
+.apresentaMenu {
+  display: none;
 }
