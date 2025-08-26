@@ -133,13 +133,13 @@ h2 {
 .menu {
   position: fixed;
   top: 2rem;
-  right: 20px;
+  left: 20px;
   z-index: 1000;
 }
 
 .rotation {
-  transform: rotate(-90deg);
-  transform-origin: right center;
+  transform: rotate(+90deg);
+  transform-origin: left center;
 }
 
 .opcoes {
