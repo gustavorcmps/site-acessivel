@@ -5,6 +5,10 @@ document.addEventListener("DOMContentLoaded", function () {
   acessibilidade.addEventListener("click", function () {
     acessibilidade.classList.toggle("rotation");
     opcoes.classList.toggle("apresentaMenu");
+
+    const acessibilidadeOn =
+      acessibilidade.getAttribute("aria-expanded") === "true";
+    acessibilidade.setAttribute("aria-expanded", !acessibilidadeOn);
   });
 
   const aumentaFonte = document.getElementById("fonte+");
