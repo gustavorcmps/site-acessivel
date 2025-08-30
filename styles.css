@@ -3,6 +3,9 @@
 :root {
   --cinza: #555555;
   --verde: #77afa1;
+  --contraste-fundo: #000000;
+  --contraste-texto: #ffffff;
+  --contraste-link: #ffd700;
 }
 
 body {
@@ -154,4 +157,41 @@ h2 {
 
 .apresentaMenu {
   display: none;
+}
+
+/* Alto contraste*/
+.contraste {
+  background-color: var(--contraste-fundo);
+  color: var(--contraste-texto);
+}
+
+.contraste header,
+.contraste footer,
+.contraste h2,
+.contraste .formulario {
+  background-color: var(--contraste-fundo);
+  color: var(--contraste-texto);
+}
+
+.contraste .nav-link {
+  color: var(--contraste-link);
+}
+
+.contraste .botao-inicio,
+.contraste .formulario button,
+.contraste .btn-primary {
+  background-color: var(--contraste-link);
+  color: var(--contraste-fundo);
+}
+
+.contraste #linkinpark {
+  background: none;
+}
+
+.contraste #galeria {
+  background-color: var(--contraste-fundo);
+}
+
+.contraste .fundo-galeria {
+  background: none;
 }
